@@ -19,7 +19,7 @@ public class PrizesList extends ToysList{
             sb.append("    ")
                     .append(i++)
                     .append(". ")
-                    .append(toy.getShortInfo())
+                    .append(toy)
                     .append("\n");
         };
         return sb.toString();

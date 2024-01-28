@@ -42,7 +42,7 @@ public class Toy implements Comparable<Toy> {
 
     public String getShortInfo() {
         return  "id:" + id
-                + " " + name + " " + weight;
+                + " " + name;
 
     }
 
@@ -50,8 +50,8 @@ public class Toy implements Comparable<Toy> {
     @Override
     public String toString() {
         return  "id:" + id
-                + " " + name +
-                ", частота выпадения: " + startWeight;
+                + " " + name
+                + ", частота выпадения: " + startWeight;
 
     }
 

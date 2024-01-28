@@ -14,7 +14,7 @@ public class ToysList extends ArrayList<Toy> {
             sb.append("    ")
                 .append(i++)
                 .append(". ")
-                .append(toy)
+                .append(toy.getShortInfo())
                 .append("\n");
         };
         return sb.toString();
